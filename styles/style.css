@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(41, 41, 41);
+}
+
+.container {
+  background-color: rgb(219, 187, 255);
+  border-radius: 50%;
+  padding: 60px 40px;
+  margin: 20px auto;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+  align-self: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+
+  background-color: rgb(165, 124, 216);
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 2px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: rgb(124, 48, 216);
+  color: whitesmoke;
+}
+
+.relogio {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0px;
+}
+
+.stopped {
+  color: rgb(255, 118, 118);
+}
